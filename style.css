@@ -1,0 +1,47 @@
+.ShowTags{
+    width: 419px;
+    height: 70px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+.Form__container{
+    display: block;
+}
+.inputTags{
+    width: 419px !important;
+}
+.buttons{
+    margin-top: 20px;
+    background-color: #4a8dc6;
+    border: #4a8dc6 1px solid;
+    border-radius: 8px;
+    width: 85px;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.tagStyle{
+    margin: 0px 10px;
+    padding: 4px 12px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.close{
+    font-size: 11px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.SaveBtn{
+    display: none;
+}
+.removeTag{
+    display: none;
+}

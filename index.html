@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--important meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Marketing Services">
+    <!--linked files-->
+    <script src="https://kit.fontawesome.com/4106aa3140.js" crossorigin="anonymous" SameSite="none"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>webtask</title>
+</head>
+<body>
+    <form method="get" class="Form__container">
+        <textarea name="inputTags" id="inputTags" cols="50" rows="10"></textarea><br>
+        <button type="button" class="buttons" id="AddTags" onclick="AddTagsClick()">Add tags</button>
+    </form>
+    <div class="ShowTags" id="ShowTags"></div>
+    <button class="buttons" id="EditTags">Edit tags</button>
+    <button class="SaveBtn buttons">Save</button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" 
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+        crossorigin="anonymous">
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
